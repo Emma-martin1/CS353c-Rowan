@@ -1,0 +1,64 @@
+
+.body{
+  display: flex;
+  gap: 10px;
+}
+
+.pic{
+  
+}
+
+.card{
+  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/greenlightning.jpg?raw=true");
+  height: 320px;
+  width: 210px;
+  border-radius: 10px; 
+  position: relative;
+  flex-shrink: 0;
+}
+.china{
+  filter: hue-rotate(250deg);
+}
+.usa{
+  filter: hue-rotate(100deg);
+}
+.southamerica{
+  filter: hue-rotate(310deg);
+}
+.greek{
+  filter: hue-rotate(270deg);
+}
+
+.pic{ 
+  height: 160px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+.ability{
+  background-color: #d14f00;
+  height: 45px;
+  margin: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: green;
+  
+}
+.heroname{
+  background-color: #d14f00;
+  border-width: 3px;
+  border-style: solid;
+  border-color: green; 
+}
+p{
+  margin: auto;
+  
+}
+img{
+  width: 100%;
+  height: 136px;
+}
+.text{
+   margin: auto;
+   font-size: 75%;
+}
