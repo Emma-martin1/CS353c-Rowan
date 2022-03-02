@@ -7,6 +7,7 @@ export default function App() {
 
   return (
     <div className="back">
+      <br></br>
       <ol className="nav">
         <li className="navButton">HOME</li>
         <li className="navButton">SELECT CARDS</li>

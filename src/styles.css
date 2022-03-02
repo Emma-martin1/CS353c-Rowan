@@ -1,13 +1,15 @@
+#root {
+  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/Olympus.jpg?raw=true");
+  background-size: cover;
+  margin: -10px;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
 }
 
 .back {
-  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/Olympus.jpg?raw=true");
-  background-size: cover;
-  left: -100px;
-  top: -50%;
 }
 
 .nav {
