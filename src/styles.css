@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.back {
+  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/Olympus.jpg?raw=true");
+  background-size: cover;
+  left: -100px;
+  top: -50%;
+}
+
+.nav {
+  display: flex;
+  margin: 20px;
+  width: 75%;
+  background-color: pink;
+  height: 50px;
+  border-width: 15%;
+  border-style: solid;
+  border-color: gold;
+}
+.navButton {
+  margin: auto;
+  width: 25%;
+  list-style: none;
+}
+.navButton:hover {
+  background-color: gray;
+  padding: 15px;
+  border-width: 15%;
+  border-style: solid;
+  border-color: gold;
+}
+
+.row {
+  display: flex;
+}
+.choose {
+  cursor: pointer;
+}
+.cardContainer {
+  display: flex;
+  /* background-color: wheat; */
+  /* width: 100%; */
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #d14f00;
+  border-width: 3%;
+  border-style: solid;
+  border-color: green;
+  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/greenlightning.jpg?raw=true");
+  /*  card ratio 3: 2  */
+  height: 200px;
+  width: 130px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  position: relative;
+  align-items: center;
+  margin: 15px;
+  /* box-shadow: 5px 10px #2c2c2b; */
+}
+.card:hover {
+  transform: scale(1.2);
+  margin: 20px;
+}
+
+#norse {
+}
+#china {
+  filter: hue-rotate(250deg);
+}
+#usa {
+  filter: hue-rotate(100deg);
+}
+#southamerican {
+  filter: hue-rotate(310deg);
+}
+#greek {
+  filter: hue-rotate(270deg);
+}
+
+.pic {
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+  filter: hue-rotate(0deg) !important;
+}
+.ability {
+  background-color: #d14f00;
+  height: 15%;
+  margin: 4%;
+  border-width: 3%;
+  border-style: solid;
+  border-color: green;
+  position: relative;
+}
+.heroname {
+  background-color: #d14f00;
+  border-width: 3%;
+  border-style: solid;
+  border-color: green;
+}
+p {
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: 90%;
+}
+.text {
+  margin: auto;
+  font-size: 60%;
+}
