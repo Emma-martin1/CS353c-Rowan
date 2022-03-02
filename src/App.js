@@ -6,7 +6,7 @@ export default function App() {
   const [showFaction, setShowFaction] = useState("");
 
   return (
-    <div>
+    <div className="back">
       <ol className="nav">
         <li className="navButton">HOME</li>
         <li className="navButton">SELECT CARDS</li>
@@ -25,6 +25,7 @@ export default function App() {
         {showFaction === "norse" && <ShowCards faction={showFaction} />}
       </div>
       {/* //end of row */}
+      <hr />
       <div class="row">
         <div
           className="card choose"
@@ -37,6 +38,7 @@ export default function App() {
         {showFaction === "china" && <ShowCards faction={showFaction} />}
       </div>
       {/* //end of row */}
+      <hr />
       <div className="row">
         <div
           className="card choose"
@@ -49,6 +51,7 @@ export default function App() {
         {showFaction === "southamerica" && <ShowCards faction={showFaction} />}
       </div>
       {/* //end of row */}
+      <hr />
       <div className="row">
         <div
           className="card choose"
@@ -61,6 +64,8 @@ export default function App() {
         {showFaction === "greek" && <ShowCards faction={showFaction} />}
       </div>
 
+      <hr />
+      {/* //end of row */}
       <div className="row">
         <div
           className="card choose"

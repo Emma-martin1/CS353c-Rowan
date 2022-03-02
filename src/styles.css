@@ -2,20 +2,35 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.back {
+  background-image: url("https://github.com/JohnMormantrops/Images/blob/main/Olympus.jpg?raw=true");
+  background-size: cover;
+  left: -100px;
+  top: -50%;
+}
+
 .nav {
   display: flex;
-  margin: -10px;
-  width: 100%;
+  margin: 20px;
+  width: 75%;
   background-color: pink;
   height: 50px;
+  border-width: 15%;
+  border-style: solid;
+  border-color: gold;
 }
 .navButton {
   margin: auto;
+  width: 25%;
   list-style: none;
 }
 .navButton:hover {
   background-color: gray;
   padding: 15px;
+  border-width: 15%;
+  border-style: solid;
+  border-color: gold;
 }
 
 .row {
@@ -45,7 +60,7 @@
   position: relative;
   align-items: center;
   margin: 15px;
-  box-shadow: 5px 10px #2c2c2b;
+  /* box-shadow: 5px 10px #2c2c2b; */
 }
 .card:hover {
   transform: scale(1.2);
