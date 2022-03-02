@@ -6,7 +6,7 @@ var router = express.Router();
  * /user/register:
  *   post:
  *     description: Register a user.
- *     tags: [Users]
+ *     tags: [User]
  *
  *     requestBody:
  *       required: true
@@ -49,7 +49,7 @@ router.post('/register', function (req, res, next) {
  * /user/login:
  *   post:
  *     description: User logs in.
- *     tags: [Users]
+ *     tags: [User]
  *
  *     requestBody:
  *       required: true

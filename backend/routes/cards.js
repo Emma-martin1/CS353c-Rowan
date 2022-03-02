@@ -1,4 +1,5 @@
 var express = require('express');
+const { cardSchema, Card } = require('../storage/cards');
 var router = express.Router();
 
 
@@ -7,7 +8,7 @@ var router = express.Router();
  * /card:
  *   get:
  *     description: Get all cards information.
- *     tags: [Cards]
+ *     tags: [Card]
  *
  *     responses:
  *       200:
@@ -38,7 +39,9 @@ var router = express.Router();
  *                     description: The hero's defense magic.
  */
 router.get('/', function (req, res, next) {
-    //todo not implemented
+    Card.find({}, function (err, cards) {
+        res.send(cards);
+    })
 });
 
 /**

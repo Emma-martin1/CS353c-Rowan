@@ -35,12 +35,12 @@ app.use('/api', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // router configuration
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/cards', cardsRouter);
+app.use('/user', usersRouter);
+app.use('/card', cardsRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
-  next(createError(404));
+  res.status(404).send({ error: "API not found!" });
 });
 
 // error handler
